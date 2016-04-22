@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
 		var tabId = tab.id;
 		tabUrl = tab.url;
-		alert('tabUrl');
+		
 		
 		//document.getElementById('urlcheck').value = tabUrl;
 		//function saveData(tabUrl) {
@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		acc = btoa(acc);
 		localStorage.setItem('_acc',acc);
 		var c = localStorage.getItem('_acc');
-		alert(c);
+		//alert(c);
 		//}
 		
 		//saveData(tabUrl);
-		window.open("http://localhost/mini/phish.html");
+		window.open("phish.html");
 	});
   }, false);
 //}, false);
