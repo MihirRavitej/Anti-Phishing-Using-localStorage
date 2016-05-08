@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	   var textbox = document.getElementById('demo');
 	   textbox.value = acc;
 	   //document.getElementById('demo').value = acc.value;
+	   
+		
 	   return true;
 	}
 	loadData();
